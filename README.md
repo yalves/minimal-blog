@@ -1,1 +1,3 @@
-"# minimal-blog" 
+# Minimal blog
+
+Vamos aprender Jekyll =)
