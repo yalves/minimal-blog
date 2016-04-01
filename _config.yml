@@ -9,7 +9,7 @@
 title: Minimal
 email: yanalves@hotmail.com
 description: "Este é um blog minimalista criado para aprender como funciona essa ferramenta linda que é o Jekyll"
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/minimal-blog" # the subpath of your site, e.g. /blog
 url: "http://yanalves.com.br" # the base hostname & protocol for your site
 twitter_username: yantwo
 github_username:  yalves
