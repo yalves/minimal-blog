@@ -1,7 +1,0 @@
----
-layout: page
-title: Sobre
-permalink: /about/
----
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore sit, similique quo ipsam culpa est, quaerat cum magnam ratione veritatis tempore! Veniam rerum quae vel, eum non ratione ad, odio in. Unde veritatis facere nulla aliquid earum eligendi obcaecati error, animi dolor, molestias eius magni neque tempora id delectus ab inventore, illum repellat distinctio. Libero eos laborum quo officiis nulla eveniet facere ipsa dolore numquam excepturi est amet facilis, corporis cumque ad, voluptas iure. Nesciunt, temporibus facere facilis illo minus cupiditate numquam eos, blanditiis, officiis labore aspernatur alias voluptates accusamus maiores quasi quos debitis, praesentium tenetur omnis. Nulla numquam accusamus eos labore ut ad! Consequatur veritatis illum sint repudiandae obcaecati harum, laudantium quam aperiam! Unde excepturi doloribus velit a ipsam, possimus deleniti quisquam vel, eveniet cum iure nisi ipsum illum magni natus. Esse maiores, dolorum explicabo sequi eius repellendus consequuntur deleniti numquam mollitia nemo dolore odio reprehenderit, dignissimos, cumque ducimus expedita ullam tempora soluta fugit quam accusantium sunt similique quod! Laborum consequatur quia iste accusantium obcaecati reiciendis voluptatibus delectus cumque aut, aperiam aspernatur sapiente animi voluptas eius earum commodi impedit modi eos quam quas maxime nihil, incidunt eligendi nam. Maiores facilis molestiae vero enim aspernatur neque blanditiis saepe, rerum? Soluta.
