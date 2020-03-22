@@ -1,20 +1,211 @@
----
-layout: default
----
+<html>	
+	<head>
+		<meta charset='utf-8'>
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>	
+		<link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon"/>
+		<title>Quer ganhar um PS4?</title>
+		<link rel="stylesheet" href="main.css">
+	</head>
+	<body>
+		<script>
+			function scrollTo2() {
+			    $('html, body').animate({
+			        scrollTop: $("#parte2").offset().top
+			    }, 1000);
+			};
 
-{% if site.posts.size == 0 %}
-  <h2>No posts found =(</h2>
-{% else %}
-  {% for post in site.posts %}
-    <div class="content list">
-      <div class="list-item">
-        <h2 class="list-post-title">
-          <a href="{{ post.url | prepend: site.baseurl}}">{{ post.title }}</a>
-        </h2>
-        <div class="list-post-data">
-          <time>{{ post.date | date_to_string }}</time>
-        </div>
-      </div>  
-    </div>
-  {% endfor %}
-{% endif %}
+			function scrollTo4() {
+			    $('html, body').animate({
+			        scrollTop: $("#parte4").offset().top
+			    }, 1000);
+			};
+		</script>
+		<section id="parte1">
+			<img src="assets/barra-superior.png" class="img-responsive" id="barra-superior">
+
+			<img src="assets/imagem-topo.png" alt="" class="img-responsive">
+
+			<img src="assets/barra-inferior.png" alt="" class="img-responsive" id="barra-inferior">
+
+			<div class="row" class="container-texto">
+				<div class="col-md-4 col-md-offset-4 col-sm-8 col-sm-offset-2">
+					<p style="width: 100%; margin-top: 30px;" class="center-block"><span><strong>“QUER GANHAR UM PS4?”</strong> é uma campanha que te dará um dos consoles mais aclamados! É uma campanha paga, que não chega a nem 1% do valor real do videogame. Então aproveite :)</span>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-10 col-xs-offset-1 hidden-xs">
+					<div class="center-block" id="container-botoes">
+						<img src="assets/botão-sobre.png" id="botao-sobre" class="maozinha img-responsive botao" onclick="scrollTo2()">
+						<img src="assets/botão-cadastro.png" alt="" class="maozinha img-responsive botao" onclick="scrollTo4()">
+					</div>
+				</div>
+				<div class="col-xs-10 col-xs-offset-1 visible-xs">
+					<div class="center-block" id="container-botoes">
+						<img src="assets/botão-sobre.png" class="maozinha center-block">
+					</div>
+					<div class="center-block" id="container-botoes">
+						<img src="assets/botão-cadastro.png" alt="" class="maozinha center-block">
+					</div>
+				</div>
+			</div>
+			<div id="container-video">
+				<iframe width="315" height="236" src="https://www.youtube.com/embed/LPdcMAp_oxQ?autoplay=1" class="center-block"></iframe>
+			</div>
+			<div class="row" id="container-hashtag">
+				<h2>#QUEROPS4</h3>
+			</div>
+		</section>
+
+
+		<section id="parte2">
+			<img src="assets/barra-new-game.png" class="img-responsive">
+			<div class="row" class="container-texto">
+				<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+					<p style="width: 100%; margin-top: 40px; margin-bottom: 50px;" class="center-block"><span>	Atualmente a Produtora New Game é uma Startup que funciona e desenvolve dentro da Escola Zion de Entretenimento. Uma equipe com uma ideia diferente e inovadora formada por alunos da própria Zion com a liderança de um dos professores, o Professor de Design e Motion Design Lucas Gil. 
+					A New Game desenvolve: Games; Arquitetura 3D com Interatividade; Visualização 3D de Produtos; Gamificação/Ludificação; Ações publicitárias; E, futuramente, treinamentos.
+					Nosso ramo é um dos que mais têm lucrado e se expandido na atualidade, por isso buscamos constantemente nos atualizar e reinventar.</span>
+				</div>
+			</div>
+			<img src="assets/icones-serviços.png" class="img-responsive center-block" id="imagem-servicos">
+		</section>
+
+		<section id="parte3">
+			<img src="assets/barra-campanha.png" class="img-responsive" alt="">
+			<div>
+				<img src="assets/capa-new-game.png" alt="" class="center-block img-responsive" id="querganhar">
+			</div>
+			<div class="row" class="container-texto">
+				<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+					<p style="width: 100%" class="center-block"><span>Você quer ganhar um PS4 e ainda concorrer a muitos outros prêmios gamers? ...quer que eu sei ;)</span><br><br>
+
+					Essa campanha será uma espécie de rifa e você poderá adquirir quantos cupons você quiser! Imagina poder ganhar um PS4 por 0,5% do seu preço original!<br><br>
+
+					"Quer ganhar um PS4" é uma campanha paga. Cada cupom custará 10 reais e quanto mais cupons, mais chances de ganhar.<br><br>
+
+					<span style="font-size: 1.8em">ENTREGAREMOS EM QUALQUER LUGAR DO BRASIL!</span> <br><br>
+
+					Convide avós, pais, tios e primos... Convide amigos, conhecidos e até os inimigos! Quanto maior o número de inscritos, serão liberados MAIS PRÊMIOS do Mundo Gamer! E você concorrerá a cada um deles com o mesmo cupom :)<br><br>
+
+					Fique ligado em nossa página! <br><br></p>
+				</div>
+			</div>		
+			<img src="assets/botão-cadastro.png" alt="" class="center-block img-responsive maozinha" onclick="scrollTo4()" style="width: 200px; margin-bottom: 20px;">
+		</section>
+
+
+		<section id="parte4">
+			<img src="assets/barra-dados.png" class="img-responsive" alt="" style="margin-bottom: 50px;">
+			<div class="row">
+				<div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+					<form action="">
+						<div id="bloco-dados2" class="col-sm-12 col-xs-12 col-md-12">
+
+	                    <div class="form-group col-md-4 col-sm-6 col-xs-12 col-sm-offset-2">
+	                        <label for="Nome">Nome</label>
+	                        <input id="Nome" name="Nome" type="text" value="" />
+	                    </div>
+	                    <div class="form-group col-md-4 col-sm-6 col-xs-12 col-sm-offset-2">
+	                        <label for="Sobrenome">Sobrenome</label>
+	                        <input id="Sobrenome" name="Sobrenome" type="text" value="" />
+	                    </div>
+
+	                    <div class="form-group col-md-4 col-sm-6 col-xs-12 col-sm-offset-2">
+	                        <label for="responsavel">Responsável</label>
+	                        <input id="responsavel" name="responsavel" type="tel" value="" />
+	                    </div>
+
+	                    <div class="form-group col-md-4 col-sm-6 col-xs-12 col-sm-offset-2">
+	                        <label for="DataNascimento">Data de nascimento</label>
+	                        <input id="DataNascimento" name="DataNascimento" type="text" value="" />
+	                    </div>
+
+	                    <div class="form-group col-md-5 col-sm-8 col-xs-12 col-sm-offset-2">
+	                        <label for="Email">Email</label>
+	                        <input id="Email" name="Email" type="text" value="" />
+	                    </div>
+
+	                    <div class="form-group col-md-3 col-sm-4 col-xs-12 col-sm-offset-2">
+	                        <label for="Cep">CEP</label>
+	                        <input id="Cep" name="Cep" type="tel" value="" />
+	                    </div>
+
+	                    <div class="form-group col-md-10 col-sm-10 col-xs-9 col-sm-offset-2">
+	                        <label for="Logradouro">Endereço Residencial</label>
+	                        <input id="Logradouro" name="Logradouro" type="text" value="" />
+	                    </div>
+
+	                    <div class="form-group col-md-2 col-sm-2 col-xs-3 col-sm-offset-2">
+	                        <label for="Numero">Nº</label>
+	                        <input id="Numero" name="Numero" type="text" value="" />
+	                    </div>
+
+	                    <div class="form-group col-md-4 col-sm-4 col-xs-6 col-sm-offset-2">
+	                        <label for="Complemento">Complemento</label>
+	                        <input id="Complemento" name="Complemento" type="text" value="" />
+	                    </div>
+
+	                    <div class="form-group col-md-4 col-sm-4 col-xs-6 col-sm-offset-2">
+	                        <label for="Bairro">Bairro</label>
+	                        <input id="Bairro" name="Bairro" type="text" value="" />
+	                    </div>
+
+	                    <div class="form-group col-md-4 col-sm-4 col-xs-9 col-sm-offset-2">
+	                        <label for="Cidade">Cidade</label>
+	                        <input id="Cidade" name="Cidade" type="text" value="" />
+	                    </div>
+
+	                    <div class="form-group col-md-4 col-sm-4 col-xs-3 col-sm-offset-2">
+	                        <label for="Uf">Estado</label>
+	                        <input id="Uf" name="Uf" type="text" value="" />
+	                    </div>
+
+	                    <div class="form-group col-md-8 col-sm-8 col-xs-12 col-sm-offset-2">
+	                        <label for="Referencia">Referência</label>
+	                        <input id="Referencia" name="Referencia" type="text" value="" />
+	                    </div>
+
+	                    <div class="form-group col-md-6 col-sm-6 col-xs-12 col-sm-offset-2 col-md-6 col-md-offset-0">
+	                        <label for="DddTelefone">Telefone</label>
+	                        <input class="inline-input inline-input-2-margin" id="DddTelefone" name="DddTelefone" type="tel" value="" />
+	                        <input class="inline-input inline-input-6" id="Telefone" name="Telefone" type="tel" value="" />
+	                    </div>
+	                    <div class="form-group col-md-6 col-sm-6 col-xs-12 col-sm-offset-2 col-md-6 col-md-offset-0">
+	                        <label for="DddCelular">Celular</label>
+	                        <input class="inline-input inline-input-2-margin" id="DddCelular" name="DddCelular" type="tel" value="" />
+	                        <input class="inline-input inline-input-6" id="Celular" name="Celular" type="tel" value="" />
+	                    </div>
+	                </div>
+					</form>
+				</div>
+				<!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+<form action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post" onsubmit="PagSeguroLightbox(this); return false;">
+<!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+<input type="hidden" name="code" value="DA706B5E3939D2700487AFAB11813E1A" />
+<input type="hidden" name="iot" value="button" />
+<input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/209x48-comprar-assina.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+</form>
+<script type="text/javascript" src="https://stc.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.lightbox.js"></script>
+<!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+			</div>
+			<div class="row">
+				<img src="assets/botão-comprar-cupom.png" alt="" class="center-block img-responsive maozinha" style="margin-bottom: 50px; margin-top: 50px; width: 200px">				
+			</div>
+		</section>
+
+
+		<section id="parte5">
+			<img src="assets/barra-parceiros.png" class="img-responsive" alt="">
+			<img src="assets/logos-parceiros.png" class="center-block img-responsive" alt="" style="margin-top: 50px; width:330px">
+			<img src="assets/logo-baixo.png" class="center-block img-responsive" alt="" style="margin-top: 50px; margin-bottom: 50px; width:200px">
+			<div class="row" style="margin-bottom: 50px;">
+				<div class="center-block container-botoes">
+					<a target="_blank" href="https://www.facebook.com/produtoranewgame/"><img src="assets/logo-facebook.png" class="img-responsive" alt=""  style="display: inline; margin-right: 20px; width: 60px"></a>
+					<a target="_blank" href="https://plus.google.com/u/0/116708450312870142973/posts"><img src="assets/logo-google.png" class="img-responsive" alt="" style="display: inline; margin-right: 10px; width: 60px"></a>
+					<a target="_blank" href="https://www.youtube.com/channel/UCrIaBgqN_8xpyIBfpIs571Q"><img src="assets/logo-youtube.png" class="img-responsive" alt="" style="display: inline; width: 60px"></a>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
